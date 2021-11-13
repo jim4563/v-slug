@@ -1,5 +1,5 @@
 <template>
-  <h1>Hello word</h1>
+  <h1>Hello word 2 @com</h1>
 </template>
 
 <script>
