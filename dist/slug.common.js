@@ -353,4 +353,4 @@ var component = normalizeComponent(
 /***/ })
 
 /******/ });
-//# sourceMappingURL=paginate.common.js.map
+//# sourceMappingURL=slug.common.js.map

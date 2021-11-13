@@ -1,6 +1,6 @@
 {
   "name": "v-slug",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": false,
   "license": "MIT",
   "main": "dist/slug.umd.min.js",
@@ -9,7 +9,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --dest demo",
-    "build:lib": "vue-cli-service build --target lib --name paginate src/lib-main.js",
+    "build:lib": "vue-cli-service build --target lib --name slug src/lib-main.js",
     "lint": "vue-cli-service lint"
   },
   "repository": {

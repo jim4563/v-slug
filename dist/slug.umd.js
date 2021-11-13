@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["paginate"] = factory();
+		exports["slug"] = factory();
 	else
-		root["paginate"] = factory();
+		root["slug"] = factory();
 })((typeof self !== 'undefined' ? self : this), function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -363,4 +363,4 @@ var component = normalizeComponent(
 
 /******/ });
 });
-//# sourceMappingURL=paginate.umd.js.map
+//# sourceMappingURL=slug.umd.js.map
