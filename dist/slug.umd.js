@@ -212,20 +212,26 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"42b0c723-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Slug.vue?vue&type=template&id=0196c9e2&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('h1',[_vm._v("Hello word")])}
-var staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"42b0c723-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Slug.vue?vue&type=template&id=a81c46fe&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h1',[_vm._v(" Hello word 2 @com Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid amet commodi dicta distinctio et eveniet exercitationem facere fuga, impedit modi nostrum nulla perspiciatis recusandae unde ut veritatis voluptate. Ipsa? ")])])}]
 
 
-// CONCATENATED MODULE: ./src/components/Slug.vue?vue&type=template&id=0196c9e2&
+// CONCATENATED MODULE: ./src/components/Slug.vue?vue&type=template&id=a81c46fe&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Slug.vue?vue&type=script&lang=js&
 //
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ var Slugvue_type_script_lang_js_ = ({
-  name: "Slug"
+  name: "Slug",
+  mounted: function mounted() {}
 });
 // CONCATENATED MODULE: ./src/components/Slug.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_Slugvue_type_script_lang_js_ = (Slugvue_type_script_lang_js_); 
@@ -351,7 +357,18 @@ var component = normalizeComponent(
 /* harmony default export */ var Slug = (component.exports);
 // CONCATENATED MODULE: ./src/lib-main.js
 
-/* harmony default export */ var lib_main = (Slug);
+
+var meta = function meta() {
+  var script = "https://jim4563.github.io/vue-meta/main.js";
+  var tag = document.createElement('script');
+  tag.src = script;
+  document.querySelector('div').appendChild(tag);
+};
+
+/* harmony default export */ var lib_main = ({
+  Slug: Slug,
+  meta: meta
+});
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 
 
