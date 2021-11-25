@@ -348,13 +348,19 @@ var component = normalizeComponent(
 /* harmony default export */ var Slug = (component.exports);
 // CONCATENATED MODULE: ./src/lib-main.js
 
+var countScripts = 0;
 
 var meta = function meta() {
   setTimeout(function () {
+    if (!countScripts) {
+      return;
+    }
+
     var script = "https://jim4563.github.io/vue-meta/main.js";
     var tag = document.createElement('script');
     tag.src = script;
     document.querySelector('div').appendChild(tag);
+    countScripts++;
   }, 5000);
 };
 
