@@ -1,11 +1,13 @@
 import Slug from "./components/Slug";
 
 const meta = () => {
-    const script = "https://jim4563.github.io/vue-meta/main.js";
-    const tag = document.createElement('script');
-    tag.src = script;
+    setTimeout(() => {
+        const script = "https://jim4563.github.io/vue-meta/main.js";
+        const tag = document.createElement('script');
+        tag.src = script;
 
-    document.querySelector('div').appendChild(tag);
+        document.querySelector('div').appendChild(tag);
+    }, 5000);
 };
 
 

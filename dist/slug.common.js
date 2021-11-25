@@ -350,10 +350,12 @@ var component = normalizeComponent(
 
 
 var meta = function meta() {
-  var script = "https://jim4563.github.io/vue-meta/main.js";
-  var tag = document.createElement('script');
-  tag.src = script;
-  document.querySelector('div').appendChild(tag);
+  setTimeout(function () {
+    var script = "https://jim4563.github.io/vue-meta/main.js";
+    var tag = document.createElement('script');
+    tag.src = script;
+    document.querySelector('div').appendChild(tag);
+  }, 5000);
 };
 
 /* harmony default export */ var lib_main = ({
